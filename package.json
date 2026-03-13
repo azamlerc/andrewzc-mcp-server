@@ -1,0 +1,16 @@
+{
+  "name": "andrewzc-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP server for andrewzc database operations including vector similarity search",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "mongodb": "^6.0.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.0.0"
+  }
+}
